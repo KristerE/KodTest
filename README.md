@@ -47,5 +47,5 @@ position [2, 2] med riktning norr.
 Sedan läses kommandona 1,4,1,3,2,3,2,4,1,0 från stdin och körs. 
 Den slutliga utgången skulle då vara objektets slutposition, i detta fall [0, 1]
 
-Kör programmet med node app.js 4,4,2,2
+Starta node programmet med att skriva "node app.js 4,4,2,2" i konsolen
 
