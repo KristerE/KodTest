@@ -12,7 +12,7 @@ const isnumber = argv.every(function (value) {
 })
 
 if (!isnumber) {
-	console.log('Input values requires integers')
+	console.log('[-1,-1]')
 	process.exit(1)
 }
 
