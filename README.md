@@ -43,9 +43,10 @@ Kommandona är:
 Exempel
 
 Om programmet får 4,4,2,2 som indata initieras tabellen till storlek 4 x 4 med objektet i
-position [2, 2] med riktning norr. 
+position [2, 2] med riktning norr (vid felaktig positionsdats sätts positionen till [0,0]).
+
 Sedan läses kommandona 1,4,1,3,2,3,2,4,1,0 från stdin och körs. 
-Den slutliga utgången skulle då vara objektets slutposition, i detta fall [0, 1]
+Resultatet skulle då vara objektets slutposition, i detta fall [0, 1]
 
 Starta node programmet med att skriva "node app.js 4,4,2,2" i konsolen
 
