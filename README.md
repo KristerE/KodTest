@@ -44,6 +44,7 @@ Exempel
 
 Om programmet får 4,4,2,2 som indata initieras tabellen till storlek 4 x 4 med objektet i
 position [2, 2] med riktning norr (vid felaktig positionsdats sätts positionen till [0,0]).
+Vid felaktig initiering returneras [-1,-1].
 
 Sedan läses kommandona 1,4,1,3,2,3,2,4,1,0 från stdin och körs. 
 Resultatet skulle då vara objektets slutposition, i detta fall [0, 1]
